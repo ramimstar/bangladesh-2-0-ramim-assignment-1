@@ -8,7 +8,32 @@
     margin: 0px;
     padding: 0px;
   }
-
+  /* nav style */
+nav{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 31px;
+    margin-bottom: 51px;
+ }
+ nav button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid;
+ }
+ nav button:hover{
+    background-color: #F7EBCF;
+ }
 /* banner style */
 .banner{
     background-color:#C6E4D6;
