@@ -348,6 +348,8 @@ input[type=text]{
     flex-direction: row;
     gap: 0px;
 }
+
+/*subscribe section style */
 .subscribe .description{
     padding-top:16px;
     padding-bottom: 24px;
@@ -371,9 +373,11 @@ input[type=email]{
     padding: 0px 34px;
     border: none;
     border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .btn-sectioon button:hover{
-
+    background-color: #5f0000;
 }
 /* footer style */
 .footer{
