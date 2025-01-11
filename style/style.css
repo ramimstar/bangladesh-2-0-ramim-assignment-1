@@ -29,10 +29,12 @@ nav{
     color: #006A50;
     padding: 15px 30px;
     border-radius: 8px;
-    border: 1px solid;
+    border: 1px solid #006A50;
  }
  nav button:hover{
-    background-color: #F7EBCF;
+    background-color: #fffb0079;
+    color: #0c5f4a;
+    font-size: 16px;
  }
 /* banner style */
 .banner{
@@ -53,7 +55,7 @@ nav{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
-    opacity: 60%;
+    opacity: 70%;
 }
 .banner-description{
     font-size: 56px;
@@ -196,7 +198,7 @@ nav{
         background-color: #FFC239;
         font-size: 16px;
         font-weight: 600;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 11px 20px;
         border: none;
         border-radius: 8px;
@@ -204,7 +206,7 @@ nav{
         margin-bottom: 32px;
     }
 .btn-modern:hover{
-        color: #FFC239;
+        color: #4e7e00;
         background-color: white;
     }
 .yunus{
@@ -216,13 +218,14 @@ nav{
 .yunus-gov{
 
         border-radius:16px ;
+        border: .2px solid rgb(248, 224, 224);
         background-repeat: no-repeat;
         background-image: url('../assets/quote-bg.png');
         background-position: left 24px top 22px;
         padding:48px 24px 48px 24px ;
         margin-bottom: 80px;
         background-color: #ffffff;  
-        box-shadow: 0px 6px 50px rgba(248, 222, 222, 0.537);
+        box-shadow: 0px 6px 50px rgba(255, 236, 236, 0.537);
 
     }
     /* recent news section */
@@ -276,7 +279,8 @@ nav{
 }
 .btn-news:hover{
     color: #d8fff5;
-    background-color: rgb(3, 98, 3);
+    background-color: rgb(15, 0, 51);
+    font-size: 17px;
 }
 /* Donate style */
 .donate{
@@ -307,14 +311,16 @@ nav{
     background-color: #ffffff;
     font-size: 40px;
     padding: 40px;
+    color: #0E0E0E;
+    opacity: .8;
     border-radius: 16px;
     box-shadow: 0px 6px 50px rgba(248, 222, 222, 0.726);
 }
 .banglatk:hover{
     
-        background-color: rgb(115, 1, 1);
+        background-color: rgba(88, 79, 79, 0.397);
         font-size: 40px;
-        color: white;
+        color: rgb(0, 0, 0);
 }
 .color-tk{
     background-color: #C6E4D6;
@@ -327,7 +333,7 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-input[type=text]{
+input[type=number]{
     width: 95%;
     height: 64px;
     color: #000000;
@@ -341,6 +347,7 @@ input[type=text]{
     background-color:#006A50 ;
     color: #ffffff;
     font-size: 18px;
+    font-weight: 600;
     padding: 17px 34px;
     border-radius: 8px;
     margin-top: 32px;
@@ -349,8 +356,8 @@ input[type=text]{
     margin-bottom: 80px;
 }
 .donate-btn:hover{
-    background-color:#5f0000;
-    color: #ffffff;
+    background-color:#fff679;
+    color: #000000;
 }
 .subscribe{
     background-color:#C6E4D6 ;
