@@ -27,8 +27,8 @@
 .banner-name{
     font-size: 24px;
     font-weight: 500;
-    opacity: 20%;
     margin-bottom: 16px;
+    opacity: 60%;
 }
 .banner-description{
     font-size: 56px;
@@ -41,6 +41,10 @@
     padding-right:60px;
     padding-top: 80px;
 }
+
+
+
+
 
 /* share style */
 
@@ -57,4 +61,141 @@
     background-color: white;
     color: #006A50;
   }
-  
+.description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+  /* vision of future section */
+
+  .vision-future{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+  }
+
+.vision-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+} 
+.vision-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    justify-content: center;
+    gap: 34px;
+}
+
+.digital{
+    background-color:hsla(218, 89%, 65%, 0.200);
+    max-height: 325px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    padding:32px;
+}
+
+
+.vision-info h5{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.btn-digital{
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn-digital:hover{
+    color: #5490F5;
+    background-color: white;
+}
+
+
+.green{
+    background-color:#C6E4D6;
+    max-height: 325px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    padding:32px;
+}
+
+.btn-green{
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn-green:hover{
+    color: #09A15C;
+    background-color: white;
+}
+
+.modern{
+    background-color:#F7EBCF;
+    max-height: 325px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    padding:32px;
+}
+
+
+
+
+.btn-modern{
+        background-color: #FFC239;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .btn-modern:hover{
+        color: #FFC239;
+        background-color: white;
+    }
+    .yunus{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top:12px;
+        padding-bottom: 4px;
+    }
+    .yunus-gov{
+
+        background-color: rgb(252, 252, 236);
+        border-radius:16px ;
+        background-repeat: no-repeat;
+        background-image: url('../assets/quote-bg.png');
+        background-position: left 24px top 22px;
+        padding:48px 24px 48px 24px ;
+        margin-bottom: 80px;
+
+    }
