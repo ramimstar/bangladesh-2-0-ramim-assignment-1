@@ -190,19 +190,25 @@
     }
 .yunus-gov{
 
-        background-color: rgb(252, 252, 236);
         border-radius:16px ;
         background-repeat: no-repeat;
         background-image: url('../assets/quote-bg.png');
         background-position: left 24px top 22px;
         padding:48px 24px 48px 24px ;
         margin-bottom: 80px;
+        background-color: #ffffff;  
+        box-shadow: 0px 6px 50px rgba(248, 222, 222, 0.537);
 
     }
     /* recent news section */
-.recent-news{
+
+.all-news{
         margin: 0 auto;
         max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 24px;
     }
 .recent-news-title{
         font-size:40px ;
@@ -210,11 +216,15 @@
         margin-bottom: 24px;
     }
 .news-info{
+        background-color: #ffffff;  
+        box-shadow: 0px 6px 50px rgba(248, 222, 222, 0.575);
+        border-radius: 24px;
         margin-top:32px ;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 32px;
+        padding: 48px;
     }
 .news-info .setalite{
     border-radius: 24px;
@@ -240,6 +250,6 @@
     margin-bottom: 32px;
 }
 .btn-news:hover{
-    color: #006A50;
-    background-color: white;
+    color: #d8fff5;
+    background-color: rgb(3, 98, 3);
 }
